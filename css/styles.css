@@ -1,0 +1,23 @@
+#stage {
+  background: #ccc;
+  width: 600px;
+  height: 300px;
+  margin-bottom: -1em;
+}
+
+/*SVG elements/*/
+
+.letter {
+  x: 15;
+  transition: 0.3s ease-in-out;
+}
+
+.letter:hover {
+  x: 15;
+  opacity: 0;
+  transition: 0.2s ease-in-out;
+}
+
+button {
+  margin: 1em;
+}
